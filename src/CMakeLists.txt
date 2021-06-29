@@ -207,3 +207,4 @@ add_library(
   ta_func/ta_utility.c)
 
 target_include_directories(TaLib PUBLIC ../include)
+set_property(TARGET TaLib PROPERTY POSITION_INDEPENDENT_CODE ON)
